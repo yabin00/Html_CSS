@@ -5,18 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        *{margin:0; padding:0; outline:none;}
-        div{
-            width: 100px;;
-            height: 100px;
-            padding: 20px;
-            margin:30px;
-            padding: 20px;
+        body,p,img{
+            margin:0;
+            padding:0;
+            border-width:0;
         }
+        .all{
+            width: 150px;
+            height: 278px;
+            margin: 50px auto;
+            font-family: "微软雅黑";
+            font-size: 16px;
+        }
+        .info p{
+            width: 138px;
+            height: 33px;
+            line-height: 33px;
+            border: 1px solid #2E3138;
+            margin-top: 2px;
+            padding-left: 10px;
+        }
+        
     </style>
 </head>
 <body>
-    <div>渺沧海之一是</div>
-    <div>哀吾生之须臾</div>
+    <div class="all">
+    <div><img src="images/user.jpg" alt="用户图像"></div>
+    <div class="info">
+    <p>用户姓名：</p>
+    <p>学习进度：</p>
+    <p>兴趣爱好：</p>
+    <p>参与的群：</p>
+    </div>
+</div>
 </body>
 </html>
