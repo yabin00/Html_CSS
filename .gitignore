@@ -46,3 +46,4 @@ builds/**/images/*
 *.png
 *.jpeg
 *.psd
+*.gif
