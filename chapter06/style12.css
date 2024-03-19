@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+/*重置浏览器的默认样式*/
+body,form,p,label,input{margin:0; padding:0;}
+#list{               /*整体控制表单*/
+	width:420px;
+	height:474px;
+	background:url(images/bg1.png) no-repeat;
+	padding:110px 0 0 110px;
+	font-size:14px;
+	font-family:"微软雅黑";
+	color:#7b6c55;
+}
+p{
+	width:260px;
+	height:37px;
+	padding-left:50px;
+	line-height:23px;
+	font-size:16px;
+}
+.title1{background:url(images/num1.png) no-repeat left center;}
+.title2{background:url(images/num2.png) no-repeat left center;}
+label{
+	display:block;
+	width:210px;
+	padding:18px 0 0 50px;
+}
+.one{padding-bottom:20px;}
+
+
+
+
+

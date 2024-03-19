@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>塔罗牌动画</title>
+<style type="text/css">
+*{margin:0; padding:0; outline:none;}
+div{
+	width:223px;
+	height:333px;
+	margin:50px auto;
+	position:relative;
+	perspective:400px;
+	}
+img{
+	position:absolute;
+	top:0;
+	left:0;
+	backface-visibility:hidden;
+	transition:all 1s linear 0s;
+	}
+.ka02{transform:rotateY(180deg);}
+div:hover .ka02{transform:rotateY(0deg);}
+div:hover .ka01{transform:rotateY(-180deg);}
+</style>
+</head>
+<body>
+<div>
+	<img class="ka01" src="images/ka01.png"/>
+    <img class="ka02" src="images/ka02.png"/>
+</div>
+</body>
+</html>
+
+
+

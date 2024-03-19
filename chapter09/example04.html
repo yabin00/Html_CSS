@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>变量的作用域</title>
+<script type="text/javascript">
+	function send1(){
+		var a="欢迎来到"   //该变量在函数内声明，只作用于该函数体
+		var b="芭提雅";   //该变量在函数内声明，只作用于该函数体
+		alert(a+b);
+	}
+	function send2(){
+		var c="曼谷";   //该变量在函数内声明，只作用于该函数体
+		alert(a+c);
+	}
+</script>
+</head>
+<body>
+<script type="text/javascript">
+  send1();
+  send2();
+</script>
+</body>
+</html>
