@@ -48,3 +48,5 @@ builds/**/images/*
 *.psd
 *.gif
 *.jpg
+*.webm
+
