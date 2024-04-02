@@ -1,32 +1,44 @@
 @charset "utf-8";
-/* CSS Document */
-/*全局控制*/ 
-body{ font-size:14px;}   
-/*清除浏览器的默认样式*/
-body,dl,dt,dd{ padding:0; margin:0; border:0;}   
-dl{
-	width:170px;
-	height:270px;
-	border:10px solid #f1e9e9;
-	padding:10px;
-	margin:10px;
+/*全局控制*/
+body {
+    font-size: 14px;  /* 设置全局字体大小为14像素 */
 }
-dt{
-width:170px; 
-height:162px; 
-background:url(images/img.png) no-repeat -17px center; 
-margin-bottom:5px;
-}
-dd{
-width:170px; 
-height:26px; 
-line-height:26px; 
-color:#999; 
-padding-left:5px;
-}
-.poo1{
-font-weight:bold; 
-font-size:16px;
-}
-.poo2{font-size:12px;}
 
+/*清除浏览器的默认样式*/
+body, dl, dt, dd {
+    padding: 0;  /* 清除元素的内边距（上、右、下、左均为0） */
+    margin: 0;  /* 清除元素的外边距（上、右、下、左均为0） */
+    border: 0;  /* 清除元素的边框（上、右、下、左均为0） */
+}
+
+dl {
+    width: 170px;  /* 设置dl元素的宽度为170像素 */
+    height: 270px;  /* 设置dl元素的高度为270像素 */
+    border: 10px solid #f1e9e9;  /* 设置dl元素的边框为10像素宽的实线边框，颜色为#f1e9e9 */
+    padding: 10px;  /* 设置dl元素的内边距为10像素 */
+    margin: 10px;  /* 设置dl元素的外边距为10像素 */
+}
+
+dt {
+    width: 170px;  /* 设置dt元素的宽度为170像素 */
+    height: 162px;  /* 设置dt元素的高度为162像素 */
+    background: url(images/img.png) no-repeat -17px center;  /* 设置dt元素的背景图像为images/img.png，不重复，水平偏移量为-17像素，垂直居中对齐 */
+    margin-bottom: 5px;  /* 设置dt元素的底部外边距为5像素 */
+}
+
+dd {
+    width: 170px;  /* 设置dd元素的宽度为170像素 */
+    height: 26px;  /* 设置dd元素的高度为26像素 */
+    line-height: 26px;  /* 设置dd元素的行高为26像素 */
+    color: #999;  /* 设置dd元素的文字颜色为#999 */
+    padding-left: 5px;  /* 设置dd元素的左侧内边距为5像素 */
+}
+
+.poo1 {
+    font-weight: bold;  /* 设置类名为.poo1的元素的字体加粗 */
+    font-size: 16px;  /* 设置类名为.poo1的元素的字体大小为16像素 */
+}
+
+.poo2 {
+    font-size: 12px;  /* 设置类名为.poo2的元素的字体大小为12像素 */
+}
